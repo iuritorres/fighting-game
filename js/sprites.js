@@ -2,10 +2,10 @@ const gravity = 0.6;
 const floorHeight = 96;
 
 const spritePaths = {
-	background: '../assets/img/background/placeholder.png',
-	shop: '../assets/img/background/shop.png',
-	player: '../assets/img/player/samuraiMack/Idle.png',
-	player2: '../assets/img/player/kenji/Idle.png',
+	background: 'assets/img/background/placeholder.png',
+	shop: 'assets/img/background/shop.png',
+	player: 'assets/img/player/samuraiMack/Idle.png',
+	player2: 'assets/img/player/kenji/Idle.png',
 };
 
 class Sprite {
@@ -386,32 +386,32 @@ const player = new Fighter({
 	},
 	sprites: {
 		idle: {
-			source: '../assets/img/player/samuraiMack/Idle.png',
+			source: 'assets/img/player/samuraiMack/Idle.png',
 			framesMax: 8,
 		},
 		run: {
-			source: '../assets/img/player/samuraiMack/Run.png',
+			source: 'assets/img/player/samuraiMack/Run.png',
 			framesMax: 8,
 		},
 		jump: {
-			source: '../assets/img/player/samuraiMack/Jump.png',
+			source: 'assets/img/player/samuraiMack/Jump.png',
 			framesMax: 2,
 		},
 		fall: {
-			source: '../assets/img/player/samuraiMack/Fall.png',
+			source: 'assets/img/player/samuraiMack/Fall.png',
 			framesMax: 2,
 		},
 		attack1: {
-			source: '../assets/img/player/samuraiMack/Attack1.png',
+			source: 'assets/img/player/samuraiMack/Attack1.png',
 			framesMax: 6,
 		},
 		takeHit: {
 			source:
-				'../assets/img/player/samuraiMack/Take Hit - white silhouette.png',
+				'assets/img/player/samuraiMack/Take Hit - white silhouette.png',
 			framesMax: 4,
 		},
 		death: {
-			source: '../assets/img/player/samuraiMack/Death.png',
+			source: 'assets/img/player/samuraiMack/Death.png',
 			framesMax: 6,
 		},
 	},
@@ -443,31 +443,31 @@ const player2 = new Fighter({
 	},
 	sprites: {
 		idle: {
-			source: '../assets/img/player/kenji/Idle.png',
+			source: 'assets/img/player/kenji/Idle.png',
 			framesMax: 4,
 		},
 		run: {
-			source: '../assets/img/player/kenji/Run.png',
+			source: 'assets/img/player/kenji/Run.png',
 			framesMax: 8,
 		},
 		jump: {
-			source: '../assets/img/player/kenji/Jump.png',
+			source: 'assets/img/player/kenji/Jump.png',
 			framesMax: 2,
 		},
 		fall: {
-			source: '../assets/img/player/kenji/Fall.png',
+			source: 'assets/img/player/kenji/Fall.png',
 			framesMax: 2,
 		},
 		attack1: {
-			source: '../assets/img/player/kenji/Attack1.png',
+			source: 'assets/img/player/kenji/Attack1.png',
 			framesMax: 4,
 		},
 		takeHit: {
-			source: '../assets/img/player/kenji/Take hit.png',
+			source: 'assets/img/player/kenji/Take hit.png',
 			framesMax: 3,
 		},
 		death: {
-			source: '../assets/img/player/kenji/Death.png',
+			source: 'assets/img/player/kenji/Death.png',
 			framesMax: 7,
 		},
 	},
