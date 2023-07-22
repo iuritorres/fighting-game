@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Fighting Game</title>
+
+		<!-- Google Font CDN -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link rel="stylesheet" href="style.css" />
+
+		<script defer src="./js/game.js"></script>
+		<script src="./js/sprites.js"></script>
+		<script src="./js/controls.js"></script>
+	</head>
+	<body>
+		<!-- Red container div -->
+		<div id="redContainerDiv">
+			<!-- Smaller red container div -->
+			<div id="smallerRedContainer">
+				<!-- Player health -->
+				<div id="playerHealthBox">
+					<div id="playerHealthBackground"></div>
+					<div id="playerHealth"></div>
+				</div>
+
+				<!-- Timer -->
+				<div id="timer">0</div>
+
+				<!-- Player2 health -->
+				<div id="player2HealthBox">
+					<div id="player2HealthBackground"></div>
+					<div id="player2Health"></div>
+				</div>
+			</div>
+
+			<!-- Result Text -->
+			<div id="displayText">Tie</div>
+
+			<canvas></canvas>
+		</div>
+
+		<!-- Scripts -->
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+			integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+	</body>
+</html>

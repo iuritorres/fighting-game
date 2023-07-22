@@ -1,0 +1,99 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Press Start 2P', cursive;
+}
+
+body {
+   background-color: #1c1c1c;
+   height: 100svh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#redContainerDiv {
+   position: relative;
+   display: inline-block
+}
+
+#smallerRedContainer {
+   position: absolute;
+   display: flex;
+   width: 100%;
+   align-items: center;
+   padding: 20px;
+}
+
+#playerHealthBox {
+   position: relative;
+   width: 100%;
+   display: flex;
+   justify-content: flex-end;
+   border-top: 4px solid white;
+   border-left: 4px solid white;
+   border-bottom: 4px solid white;
+}
+
+#playerHealthBackground {
+   background-color: red;
+   height: 30px;
+   width: 100%
+}
+
+#playerHealth {
+   position: absolute;
+   background: #818cf8;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   width: 100%;
+}
+
+#timer {
+   background-color: black;
+   width: 100px;
+   height: 50px;
+   flex-shrink: 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: white;
+   border: 4px solid white;
+}
+
+#player2HealthBox {
+   position: relative;
+   width: 100%;
+   border-top: 4px solid white;
+   border-bottom: 4px solid white;
+   border-right: 4px solid white;
+}
+
+#player2HealthBackground {
+   background-color: red;
+   height: 30px
+}
+
+#player2Health {
+   position: absolute;
+   background: #818cf8;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+}
+
+#displayText {
+   position: absolute;
+   color: white;
+   align-items: center;
+   justify-content: center;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   display: none;
+   font-size: 2.4rem;
+}
