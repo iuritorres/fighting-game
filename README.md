@@ -1,1 +1,1 @@
-"# fighting-game" 
+# fighting-game
